@@ -708,7 +708,7 @@ class ModelPawn extends PawnBehavior {
               }
               // Load texture
               const textureLoader = new THREE.TextureLoader();
-              textureLoader.load("./assets/Texture.jpg", (texture) => {
+              textureLoader.load("./assets/Texture.jpeg", (texture) => {
                 const material = new THREE.MeshBasicMaterial({
                   map: texture,
                   transparent: true,
