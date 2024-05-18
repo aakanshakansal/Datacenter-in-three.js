@@ -515,7 +515,7 @@ class ModelPawn extends PawnBehavior {
     // Create a promise to ensure the traversal runs after the model is loaded
     const loadModelPromise = new Promise((resolve, reject) => {
       gltfLoader.load(
-        "./assets/3d/datacenter.glb",
+        "./assets/3d model datacenter/datacenter.glb",
         (gltf) => {
           const model = gltf.scene;
 
