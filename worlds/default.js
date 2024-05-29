@@ -20,7 +20,7 @@ export function init(Constants) {
     */
 
   Constants.UserBehaviorDirectory = "behaviors/default";
-  Constants.UserBehaviorModules = ["lights.js", "fun1.js"];
+  Constants.UserBehaviorModules = ["lights.js", "fun1.js", "names.js"];
   const avatarModels = [
     "3kDNEN2jKhiPYcYAfItpXCcaahDmYM54K-kP6mKb_x8AAx8fGxhRREQNAgcOGEUeGEUIGQQaHg4fRQIERB5ELA89CRIHIhgqADoIKTMPWCwTCh0SHD4gPDIyWUQCBEUIGQQaHg4fRQYCCBkEHQ4ZGA5EEgMHOzsPIC46GCoaMxsfOjwhBCIuWxM8XzwZHjpfND8JIw4cBQ8oXi8lOkQPCh8KRD0aDSQSEjkvICQ5BQM6Xi1GHhk9OglGOAcDBw0CHAEYD1wkKR0PITNGDBg",
     "3qPM9OnJ8B8G-bx-DZtT_uk55iJ-4seqH4D_N7XJcmxMGQUFAQJLXl4XGB0UAl8EAl8SAx4ABBQFXxgeXgReNhUnEwgdOAIwGiASMykVQjYJEAcIBiQ6JigoQ14YHl8SAx4ABBQFXxwYEgMeBxQDAhReCBkdISEVOjQgAjAAKQEFICY7Hjg0QQkmRSYDBCBFLiUTORQGHxUyRDU_IF4VEAUQXjwFBSNHOj4rAgIbNz8COSEnFTUFCD4gJD4gKTIkRQZEGi42CRQAKDk8MAY",
@@ -76,7 +76,7 @@ export function init(Constants) {
         translation: [28.42467035913255, 0.5850223148710517, 9.11083301323521],
         rotation: [0, -0.6889167174432691, 0, -0.7248405041298335],
         spawn: "default",
-        // behaviorModules: ["Names"],
+        behaviorModules: ["Names"],
       },
     },
   ];
